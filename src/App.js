@@ -1,16 +1,12 @@
 import React from "react";
 import { render } from "react-dom";
-
+import Counter from "./Counter";
 
 const App=()=>{
     //JSX
-    return(
-    <React.Fragment>
-       <div>
-            Hola
-        </div>
-    </React.Fragment>
-    )
+    return <Counter></Counter>
+    
+    
 };
 
 
