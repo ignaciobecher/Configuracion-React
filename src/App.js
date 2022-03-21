@@ -4,9 +4,13 @@ import { render } from "react-dom";
 
 const App=()=>{
     //JSX
-    return <div>
-        hola
-    </div>
+    return(
+    <React.Fragment>
+       <div>
+            Hola
+        </div>
+    </React.Fragment>
+    )
 };
 
 
