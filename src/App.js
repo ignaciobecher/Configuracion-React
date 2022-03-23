@@ -12,3 +12,5 @@ const App=()=>{
 
 
 render(React.createElement(App),document.getElementById("root"))
+
+//Configuracion basica de react
